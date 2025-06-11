@@ -17,7 +17,7 @@ ALLOWED_IMAGE_TYPES = {'image/jpeg', 'image/png'}
 
 # Define realistic class names for skin diseases
 CLASS_NAMES = [
-
+"Eczema", "Melanoma", "Atopic Dermatitis", "Basal Cell Carcinoma", "Melanocytic Nevi", "Benign Keratosis-like Lesions", "Psoriasis pictures Lichen Planus and related diseases", "Seborrheic Keratoses and other Benign Tumors", "Tinea Ringworm Candidias", "Warts Molluscum and other Viral Infections"
 ]#Add Class name here
 
 # Load the trained model
