@@ -1,0 +1,6 @@
+fastapi
+tensorflow==2.10
+numpy==1.21.3
+pillow
+uvicorn
+pydantic
