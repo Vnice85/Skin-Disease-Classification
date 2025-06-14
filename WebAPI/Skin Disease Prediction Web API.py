@@ -11,7 +11,7 @@ from typing import List
 import uvicorn
 
 # Configuration
-MODEL_PATH = 'student_model_20250611-100617.keras' #Replace your model path
+MODEL_PATH = 'D:/HM/Skin-Disease-Classification/Model/model.keras' #Replace your model path
 IMG_SIZE = (300, 300) #You can change IMG_SIZE for your model
 ALLOWED_IMAGE_TYPES = {'image/jpeg', 'image/png'}
 
