@@ -11,22 +11,22 @@ from typing import List
 import uvicorn
 
 # Configuration
-MODEL_PATH = 'student_model_20250611-100617.keras' #Replace your model path
+MODEL_PATH = './Model/model.h5' #Replace your model path
 IMG_SIZE = (300, 300) #You can change IMG_SIZE for your model
 ALLOWED_IMAGE_TYPES = {'image/jpeg', 'image/png'}
 
 # Define realistic class names for skin diseases
 CLASS_NAMES = [
-    "1. Eczema",
-    "10. Warts Molluscum and other Viral Infections - 2103",
-    "2. Melanoma 15.75k",
-    "3. Atopic Dermatitis - 1.25k",
-    "4. Basal Cell Carcinoma (BCC) 3323",
-    "5. Melanocytic Nevi (NV) - 7970",
-    "6. Benign Keratosis-like Lesions (BKL) 2624",
-    "7. Psoriasis pictures Lichen Planus and related diseases - 2k",
-    "8. Seborrheic Keratoses and other Benign Tumors - 1.8k",
-    "9. Tinea Ringworm Candidiasis and other Fungal Infections - 1.7k"
+    "Eczema",
+    "Warts Molluscum and other Viral Infections",
+    "Melanoma",
+    "Atopic Dermatitis",
+    "Basal Cell Carcinoma (BCC)",
+    "Melanocytic Nevi (NV)",
+    "Benign Keratosis-like Lesions (BKL)",
+    "Psoriasis pictures Lichen Planus and related diseases",
+    "Seborrheic Keratoses and other Benign Tumors",
+    "Tinea Ringworm Candidiasis and other Fungal Infections"
 ]#Add Class name here
 
 # Load the trained model
